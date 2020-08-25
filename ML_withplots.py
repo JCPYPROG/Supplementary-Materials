@@ -118,7 +118,7 @@ def did_i_do_good(encoder, test_percent=0.3):
     print(classification_report(y_test,predict_test))
 
 
-#The next model we can use is the regressor model to predict the stability of a sequence
+##The next model we can use is the regressor model to predict the stability of a sequence
 
 def Regressor_MLP(encoder, test_percent=.3):
     mlp = MLPRegressor(hidden_layer_sizes=(20,20,20), alpha=0.01, max_iter=500,
