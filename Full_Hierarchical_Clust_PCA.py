@@ -117,7 +117,7 @@ plt.title('2D Principal Components')
 
 plt.savefig(title+' PCA_plot_2d(no_clusters).png')
 
-#########PCA 3d plot no clustering ######
+########PCA 3d plot no clustering ######
 plt.clf()
 
 fig = plt.figure()
